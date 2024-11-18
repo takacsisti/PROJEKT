@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Játék</title>
+</head>
+<body>
+    <div id="game">
+        <div class="e">
+            <div class="w">
+                <h1>Wordle Játék</h1>
+            </div>
+        </div>
+        <p>Találd ki az 5 betűs szót! 10 próbálkozásod van. 10 különböző szó van.</p>
+        <input type="text" id="t" maxlength="5" placeholder="Írj be egy szót" />
+        <button onclick="a()">Beküld</button>
+        <p id="v"></p>
+        <div id="p"></div>
+        <button id="ujJatekBtn" style="display:none;" onclick="ujJatek()">Új játék</button>
+    </div>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

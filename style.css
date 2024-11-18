@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color:beige
+}
+#game {
+    text-align: center;
+}
+.guess {
+    font-size: 24px;
+    margin: 10px;
+}
+.correct {
+    color: green;
+}
+.present {
+    color: orange;
+}
+.absent {
+    color: red;
+}
+
+.w {
+    color:rgb(54, 255, 47);
+    
+}
+
+.e{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(0, 255, 34);
+    margin-bottom: 10px;
+}
+
